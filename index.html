@@ -1,0 +1,164 @@
+<!-- Meta information  -->
+<!-- 1. SEO Meta tags
+    2. SEO title
+    3. SEO headings
+    4. SEO anchor/descriptive text
+    5. SEO image alt descriptions
+    6A. NEW hero heading caption for carrousel
+    6B. NEW content section rework
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required META tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO META -->
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Bootstrap style sheets via CON -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/coffeshop.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+    </style>
+
+  <title>Theory Coffee</title>
+</head>
+<body>
+  <div class="container">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid navbar-logo">
+        <a class="navbar-brand" href="#">
+          <img src="./img/cup-hot-fill.svg" class="icon me-3 sedan-sc-regular" alt="Coffe logo" /><span class="sedan-sc-regular text-branding">  Theory Coffee</span>
+          
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbarText" id="navbarNav">
+          <!-- NAV-LINKS Section -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active sedan-sc-regular " aria-current="page" href="#">Our Coffee Theory</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sedan-sc-regular" href="./menu.html">Cafe Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sedan-sc-regular" href="./reservations.html">Cafe Bookings</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CAROUSEL -->
+    <div id="carousel-hero" class="carousel slide" data-bs-ride="carousel">
+      <!-- Optional Toggle Buttons -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel-hero" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel-hero" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel-hero" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <!-- Carousel images/items -->
+      <div class="carousel-inner carousel-images">
+        <!-- Carousel Item 1 -->
+        <div class="carousel-item active">
+          <img src="./img/CoffeShopResize.jpg" class="d-block w-100 img1" alt="restaurant bar">
+        </div>
+        <!-- Carousel Item 2 -->
+        <div class="carousel-item">
+          <img src="./img/CoffeSplash.jpg" class="d-block w-100" alt="restaurant front">
+        </div>
+
+        <!-- Carousel Item 3 -->
+
+        <div class="carousel-item">
+          <img src="./img/CoffeServe.jpg" class="d-block w-100" alt="restaurant front">
+        </div>
+      </div>
+    </div>
+
+    <!-- ROW ONE: TITLE -->
+    <div class="row my-3">
+      <div class="col-12">
+        <h2 class="display-4 sedan-sc-regular text-branding">Our shop</h2>
+        <hr />
+        <h2 class="text-end text-muted lead sedan-sc-regular"> <span class="text-dark">our baristas </span></h2>
+      </div>
+    </div>
+
+    <!-- ROW TWO: TEXT & FORM -->
+    <div class="row">
+      <!-- Start of Column-Left (8/12) -->
+      <div class="col-8">
+        <p class="sedan-sc-regular">Located in the Beach Road of Black Rock, Coffee Theory brings a classical approach to the way we serve coffee. Our modern facilities offer the perfect place for that friend reunion you've long been yearning for  </p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1144.9147430255641!2d145.0163388937231!3d-37.975549913071305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sau!4v1715658169122!5m2!1sen!2sau" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <!-- Start of Column-Right (4/12) -->
+      <div class="col-4">
+        <img src="./img/Baristapic.jpg" alt="Barista travis" class="img-fluid rounded img-barista">
+      </div>
+    </div>
+
+    <!-- ROW THREE: SPECIALS TITLE -->
+    <div class="row my-3">
+      <div class="col-12">
+        <h2 class="display-4">Our origins</h2>
+        <hr />
+        <h3 class="text-center text-muted lead">Ethically sourced ingredients</h3>
+      </div>
+    </div>
+
+    <!-- ROW FOUR: SPECIALS CARDS -->
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-4">
+        <div class="card featureCard">
+          <img src="./img/Coffee-plantation.jpg" class="card-img-top img-fluid" alt="special salad bowl">
+          <div class="card-body">
+            <h5 class="card-title sedan-sc-regular">Our coffee</h5>
+            <p class="card-text sedan-sc-regular">Our coffee is sourced from the andean mountains of Colombia, from 14000 km away</p>
+            <a href="#" class="btn customBtnColor mt-3">Nutritional Facts</a>
+          </div>
+        </div> 
+      </div>
+      <!-- Card 2 -->
+      <div class="col-4">
+        <div class="card featureCard">
+          <img src="./img/baker.jpg" class="card-img-top img-fluid" alt="special burger">
+          <div class="card-body">
+            <h5 class="card-title sedan-sc-regular">Our bread</h5>
+            <p class="card-text sedan-sc-regular">Our bread is freshly baked each morning by our talented team of bakers</p>
+            <a href="#" class="btn customBtnColor mt-3">Nutritional Facts</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-4">
+        <div class="card featureCard">
+          <img src="./img/Coffe-team.jpg" class="card-img-top img-fluid" alt="special chicken">
+          <div class="card-body">
+            <h5 class="card-title sedan-sc-regular">Our staff</h5>
+            <p class="card-text sedan-sc-regular">Come and say hi to our very friendly staff of Black Rock Locals!</p>
+            <a href="#" class="btn customBtnColor mt-3">Nutritional Facts</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer mt-3 px-4 d-flex flex-row justify-content-between bg-light">
+      <p>&copy; Theory Coffee</p>
+      <p>Designed by Tomas O<strong>C IV holmesglen</strong></p>
+    </footer>
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

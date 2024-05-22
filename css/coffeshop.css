@@ -1,0 +1,164 @@
+
+/* CSS RESETS */
+p {
+  margin: 0;
+}
+
+/* Text editor */
+
+.text-light{
+  color: #fff;
+}
+.text-dark{
+  color: #322C2B;
+}
+.text-branding{
+  color: #803D3B;
+}
+.sedan-sc-regular {
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* EXAMPLE OF BOOTSTRAP OVERWRITE - button colours */
+.customBtnColor {
+  background-color: #803D3B;
+  color: #fff;
+}
+.customBtnColor:hover {
+  background-color: #3730a3;
+  color: #e0e7ff;
+}
+
+/* ADDITION OF OUR OWN CUSTOM CSS WITH BOOTSTRAP */
+.icon {
+  width: 2.5rem;
+}
+
+.footer {
+  width: 100%;
+  line-height: 60px;
+  font-size: 14px;
+}
+.container{
+ background-color: #AF8260
+
+ /* Navbar */
+}
+.navbarText{
+  text-align: center;
+  justify-content: center;
+  background-color: #E4C59E;
+}
+.navbar-logo{
+  background-color: #E4C59E;
+}
+/* carousel images */
+
+.carousel-images{
+  max-width: 100%;
+  max-height: 90%;
+ 
+  display: flex;
+}
+.row{
+  display: flex;
+}
+
+/* embedded map */
+iframe{
+ 
+  display: flex;
+}
+@media screen and (max-width: 752px){
+
+iframe{
+  height: 300px;
+  width: 400px;
+  margin: 12px;
+  padding-right: 16px;
+}
+}
+/* Menu background image */
+
+#reservation-img{
+  background-image:url(https://images.unsplash.com/photo-1671197346374-9d03a2a33a92?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGNhZmUlMjBzdG9yZXxlbnwwfDB8MHx8fDA%3D) ;
+   /* Full height */
+   height: 430px; 
+
+   /* Center and scale the image nicely */
+   background-position: center;
+}
+.text-bg{
+  text-align: center;
+  
+}
+
+/* !Menu Page */
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em;
+}
+.menu{
+  font-size: 14px;
+}
+.menu-group-heading{
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #E4C59E;
+}
+.menu-group{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
+
+@media screen and (min-width: 992px){
+  .menu{
+    font-size: 16px;
+  }
+
+  .menu-group{
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  .menu-item-image{
+    width: 140px;
+    height: 140px;
+  }
+
+}
+/* menu items */
+
+.menu-item{
+  display: flex;
+  margin-top: 1.5em;
+}
+.menu-item-image{
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
+}
+.menu-item-text{
+  flex-grow: 1;
+}
+.menu-item-heading{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.menu-heading-description{
+  font-size: 16px;
+}
+.menu-item-name{
+  margin-right:1.5em; 
+}
+.menu-item-description{
+  line-height: 1.6;
+}
